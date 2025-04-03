@@ -15,9 +15,9 @@ Used the previously published genome of vermilion rockfish to identify the locat
 Developed primers to target those specific regions of the genome
 #### 3. Lab Work
 Followed protocols outlined in Mayne et al. 2021,  Mayne et al. 2022, and Anastasiadi & Piferrer, 2019 to extract, bisulfite treat the DNA and amplify, barcode and sequence specific regions in the genome. (NOT INCLUDED IN THIS REPO)
-### 4. Post Sequencing Processing
+#### 4. Post Sequencing Processing
 Demultiplex, align, and call methylation percentage for each locus amplified
-### 5. Linear modeling 
+#### 5. Linear modeling 
 (MARTY ADD HERE) 
 
 ## Current Results:
