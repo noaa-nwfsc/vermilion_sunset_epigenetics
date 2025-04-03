@@ -3,13 +3,25 @@
 Primary Contacts: Anita Wray, anita.wray@noaa.gov, Marty Kardos, martin.kardos@noaa.gov
 
 ## Objective:
-We attempted to improve estimates of age for both vermilion and sunset rockfish. Specifically, we 
-1. Used the previously published genome of vermilion rockfish to identify the location of informative methylation markers used in European Bass, Australian lungfish, zebrafish, Murray cod, and Mary River cod (Anastasiadi & Piferrer, 2019, Mayne et al. 2021,  Mayne et al. 2022).
-2. Developed primers to target those specific regions of the genome
-3. Follow protocols outlined in Mayne et al. 2021,  Mayne et al. 2022, and Anastasiadi & Piferrer, 2019 to extract, bisulfite treat the DNA and amplify, barcode and sequence specific regions in the genome. Briefly, candidate epigenetic age markers will be multiplexed, and each sample barcoded for individual identification, and sequenced to obtain the methylation profiles at these candidate loci.
+We leveraged findings from our ongoing research to improve estimates of age for both vermilion and sunset rockfish. Specifically, we will use epigenetic analyses of fin clips to estimate the age of individuals in both species using a subset of our existing 30,000 vermilion and sunset rockfish samples collected from 2004-2023 during two industry-collaborative research surveys. Epigenetic ageing provides a non-lethal method of determining age and lifespan using the degree of methylation at genomic sites. These sites are preselected from previous studies. 
 
+### First effort (last update 04/2025): 
+We used 96 samples from a wide age distribution and good DNA quality from the fin clip. These samples were both Vermilion and Sunset rockfish from both the H&L and Trawl surveys. 
 
+## Methods:
+#### 1. Find CpG sites in Vermilion Rockfish
+Used the previously published genome of vermilion rockfish to identify the location of informative methylation markers used in European Bass, Australian lungfish, zebrafish, Murray cod, and Mary River cod (Anastasiadi & Piferrer, 2019, Mayne et al. 2021,  Mayne et al. 2022).
+#### 2. Develop primers 
+Developed primers to target those specific regions of the genome
+#### 3. Lab Work
+Followed protocols outlined in Mayne et al. 2021,  Mayne et al. 2022, and Anastasiadi & Piferrer, 2019 to extract, bisulfite treat the DNA and amplify, barcode and sequence specific regions in the genome. (NOT INCLUDED IN THIS REPO)
+### 4. Post Sequencing Processing
+Demultiplex, align, and call methylation percentage for each locus amplified
+### 5. Linear modeling 
+(MARTY ADD HERE) 
 
-, Anastasiadi & Piferrer, 2019). By establishing specific genomic sites within teleost species, implementing this project for this species complex is much faster. In addition, this work will provide information necessary for proposed research on estimating population size using Close Kin Mark Recapture, and provide a baseline for this method to be implemented on other commercially and recreationally important species.
+## Current Results:
+Our current results suggest that although our loci are somewhat informative of age we do not have enough loci to have a confident age call for individuals. In order to increase confidence, we would need to locate, amplify, and sequence more CpG sites.
 
-
+## Disclaimer: 
+This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
