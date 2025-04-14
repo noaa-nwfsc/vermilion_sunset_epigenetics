@@ -16,7 +16,7 @@ Developed primers to target those specific regions of the genome
 #### 3. Lab Work
 Followed protocols outlined in Mayne et al. 2021,  Mayne et al. 2022, and Anastasiadi & Piferrer, 2019 to extract, bisulfite treat the DNA and amplify, barcode and sequence specific regions in the genome. (NOT INCLUDED IN THIS REPO)
 #### 4. Post Sequencing Processing
-Demultiplex, align, and call methylation percentage for each locus amplified. Most of the scripts are taken from this site, which was super helpful. In order, you trim then align and call, then The file that we end up using for step 5 is the .cov file from each individual, produced from the bismark_part1.sh script. 
+Demultiplex, align, and call methylation percentage for each locus amplified. Most of the scripts are taken from [this site](https://ucdavis-bioinformatics-training.github.io/2020-Epigenetics_Workshop/WGBS/WGBS), which was super helpful. In order, you trim, then align, then call the methylation percentage. The file that we end up using for step 5 is the .cov file from each individual, produced from the bismark_part1.sh script. 
 #### 5. Linear modeling 
 (MARTY ADD HERE) 
 
