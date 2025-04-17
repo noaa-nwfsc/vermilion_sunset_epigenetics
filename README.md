@@ -9,13 +9,13 @@ We leveraged findings from our ongoing research to improve estimates of age for 
 We used 96 samples from a wide age distribution and good DNA quality from the fin clip. These samples were both Vermilion and Sunset rockfish from both the H&L and Trawl surveys. 
 
 ## Methods:
-#### 1. Find CpG sites in Vermilion Rockfish
+#### 1. [Find CpG sites in Vermilion Rockfish](https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/CpG%20SITE%20IDENTIFICATION)
 Used the previously published genome of vermilion rockfish to identify the location of informative methylation markers used in European Bass, Australian lungfish, zebrafish, Murray cod, and Mary River cod (Anastasiadi & Piferrer, 2019, Mayne et al. 2021,  Mayne et al. 2022).
 #### 2. Develop primers 
 Developed primers to target those specific regions of the genome
 #### 3. Lab Work
 Followed protocols outlined in Mayne et al. 2021,  Mayne et al. 2022, and Anastasiadi & Piferrer, 2019 to extract, bisulfite treat the DNA and amplify, barcode and sequence specific regions in the genome. (NOT INCLUDED IN THIS REPO)
-#### 4. Post Sequencing Processing
+#### 4. [Post Sequencing Processing](https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/POST%20SEQUENCING%20PROCESSING)
 Demultiplex, align, and call methylation percentage for each locus amplified. Most of the scripts are taken from [this site](https://ucdavis-bioinformatics-training.github.io/2020-Epigenetics_Workshop/WGBS/WGBS), which was super helpful. In order, you trim, then align, then call the methylation percentage. The file that we end up using for step 5 is the .cov file from each individual, produced from the bismark_part1.sh script. 
 #### 5. Linear modeling 
 (MARTY ADD HERE) 
