@@ -11,6 +11,10 @@ We used 96 samples from a wide age distribution and good DNA quality from the fi
 ## Methods:
 #### 1. [Find CpG sites in Vermilion Rockfish](https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/CpG%20SITE%20IDENTIFICATION)
 Used the previously published genome of vermilion rockfish to identify the location of informative methylation markers used in European Bass, Australian lungfish, zebrafish, Murray cod, and Mary River cod (Anastasiadi & Piferrer, 2019, Mayne et al. 2021,  Mayne et al. 2022).
+We did this with two methods:
+1. Use LASTZ to align the vermilion and zebrafish genomes then filtered to only unique sites (see bash and R script)
+2. Subsetted the zebrafish genome to only 300bp surrounding the CpG sites (600bp total, fasta file included in repo) then used NCBI BLAST against the vermilion genome
+
 #### 2. Develop primers 
 Developed primers to target those specific regions of the genome
 #### 3. Lab Work
