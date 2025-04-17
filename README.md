@@ -9,7 +9,7 @@ We leveraged findings from our ongoing research to improve estimates of age for 
 We used 96 samples from a wide age distribution and good DNA quality from the fin clip. These samples were both Vermilion and Sunset rockfish from both the H&L and Trawl surveys. 
 
 ## Methods:
-#### 1. Find CpG sites in Vermilion Rockfish
+#### 1. [Find CpG sites in Vermilion Rockfish](https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/CpG%20SITE%20IDENTIFICATION)
 Used the previously published genome of vermilion rockfish to identify the location of informative methylation markers used in European Bass, Australian lungfish, zebrafish, Murray cod, and Mary River cod (Anastasiadi & Piferrer, 2019, Mayne et al. 2021,  Mayne et al. 2022).
 #### 2. Develop primers 
 Developed primers to target those specific regions of the genome
