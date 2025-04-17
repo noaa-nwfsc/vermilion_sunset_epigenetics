@@ -50,9 +50,7 @@ Anastasiadi & Piferrer, 2019 to extract, bisulfite treat the DNA and
 amplify, barcode and sequence specific regions in the genome. (NOT
 INCLUDED IN THIS REPO)
 
-#### 4. [Post Sequencing
-
-Processing](<https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/POST%20SEQUENCING%20PROCESSING>)
+#### 4. [Post Sequencing Processing](<https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/POST%20SEQUENCING%20PROCESSING>)
 Demultiplex, align, and call methylation percentage for each locus
 amplified. Most of the scripts are taken from [this
 site](https://ucdavis-bioinformatics-training.github.io/2020-Epigenetics_Workshop/WGBS/WGBS),
