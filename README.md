@@ -36,7 +36,7 @@ script) 2. Subsetted the zebrafish genome to only 300bp surrounding the
 CpG sites (600bp total, fasta file included in repo) then used NCBI
 BLAST against the vermilion genome
 
-#### 2. Develop primers
+#### 2. [Develop primers](https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/PRIMER%20DEVELOPMENT)
 
 Developed primers to target those specific regions of the genome. We
 used [methprimer](https://www.methprimer.com/) to develop primers based
