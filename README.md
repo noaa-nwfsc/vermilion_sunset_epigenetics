@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Vermilion Sunset Epigenetic Project
 
 Primary Contacts: Anita Wray,
