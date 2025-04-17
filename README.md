@@ -1,8 +1,8 @@
 # Vermilion Sunset Epigenetic Project
 
 Primary Contacts: Anita Wray,
-[anita.wray\@noaa.gov](mailto:anita.wray@noaa.gov){.email}, Marty
-Kardos, [martin.kardos\@noaa.gov](mailto:martin.kardos@noaa.gov){.email}
+[anita.wray\@noaa.gov](mailto:anita.wray@noaa.gov), Marty
+Kardos, [martin.kardos\@noaa.gov](mailto:martin.kardos@noaa.gov)
 
 ## Objective:
 
