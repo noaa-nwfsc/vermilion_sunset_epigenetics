@@ -24,7 +24,7 @@ from both the H&L and Trawl surveys.
 
 ## Methods:
 
-#### 1. [Find CpG sites in Vermilion Rockfish](https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/CpG%20SITE%20IDENTIFICATION)
+#### 1. Find CpG sites in Vermilion Rockfish
 
 Used the previously published genome of vermilion rockfish to identify
 the location of informative methylation markers used in European Bass,
@@ -36,7 +36,7 @@ script) 2. Subsetted the zebrafish genome to only 300bp surrounding the
 CpG sites (600bp total, fasta file included in repo) then used NCBI
 BLAST against the vermilion genome
 
-#### 2. [Develop primers](https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/PRIMER%20DEVELOPMENT)
+#### 2. Develop primers
 
 Developed primers to target those specific regions of the genome. We
 used [methprimer](https://www.methprimer.com/) to develop primers based
@@ -50,7 +50,7 @@ Anastasiadi & Piferrer, 2019 to extract, bisulfite treat the DNA and
 amplify, barcode and sequence specific regions in the genome. (NOT
 INCLUDED IN THIS REPO)
 
-#### 4. [Post Sequencing Processing](<https://github.com/noaa-nwfsc/vermilion_sunset_epigenetics/tree/main/POST%20SEQUENCING%20PROCESSING>)
+#### 4. Post Sequencing Processing
 Demultiplex, align, and call methylation percentage for each locus
 amplified. Most of the scripts are taken from [this
 site](https://ucdavis-bioinformatics-training.github.io/2020-Epigenetics_Workshop/WGBS/WGBS),
