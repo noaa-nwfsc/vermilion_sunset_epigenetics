@@ -59,7 +59,8 @@ methylation percentage. The file that we end up using for step 5 is the
 .cov file from each individual, produced from the bismark_part1.sh
 script.
 
-#### 5. Linear modeling (MARTY ADD HERE)
+#### 5. Linear modeling   
+Ran a GLM in R to estimate age using methylation % at each locus
 
 ## Current Results (04/2025):
 
