@@ -69,6 +69,8 @@ age we do not have enough loci to have a confident age call for
 individuals. In order to increase confidence, we would need to locate,
 amplify, and sequence more CpG sites.
 
+[SEE FIGURE HERE](https://github.com/anita-wray/vermilion_sunset_epigenetics/blob/main/LINEAR%20MODELING/predAge_vs_realAge_glmnet_locusPThresh0.1_MinDep5_4March2025.pdf)
+
 ## Disclaimer:
 
 This repository is a scientific product and is not official
