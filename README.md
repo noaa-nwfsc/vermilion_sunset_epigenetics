@@ -1,8 +1,7 @@
 # Vermilion Sunset Epigenetic Project
 
 Primary Contacts: Anita Wray,
-[anita.wray\@noaa.gov](mailto:anita.wray@noaa.gov), Marty
-Kardos, [martin.kardos\@noaa.gov](mailto:martin.kardos@noaa.gov)
+[anita.wray\@noaa.gov](mailto:anita.wray@noaa.gov)
 
 ## Objective:
 
@@ -13,63 +12,32 @@ both species using a subset of our existing 30,000 vermilion and sunset
 rockfish samples collected from 2004-2023 during two
 industry-collaborative research surveys. Epigenetic ageing provides a
 non-lethal method of determining age and lifespan using the degree of
-methylation at genomic sites. These sites are preselected from previous
-studies.
+methylation at genomic sites.
 
-### First effort (last update 04/2025):
+### First effort (04/2025):
 
 We used 96 samples from a wide age distribution and good DNA quality
 from the fin clip. These samples were both Vermilion and Sunset rockfish
-from both the H&L and Trawl surveys.
-
-## Methods:
-
-#### 1. Find CpG sites in Vermilion Rockfish
-
-Used the previously published genome of vermilion rockfish to identify
-the location of informative methylation markers used in European Bass,
-Australian lungfish, zebrafish, Murray cod, and Mary River cod
-(Anastasiadi & Piferrer, 2019, Mayne et al. 2021, Mayne et al. 2022). We
-did this with two methods: 1. Use LASTZ to align the vermilion and
-zebrafish genomes then filtered to only unique sites (see bash and R
-script) 2. Subsetted the zebrafish genome to only 300bp surrounding the
-CpG sites (600bp total, fasta file included in repo) then used NCBI
-BLAST against the vermilion genome
-
-#### 2. Develop primers
-
-Developed primers to target those specific regions of the genome. We
-used [methprimer](https://www.methprimer.com/) to develop primers based
-on the LASTZ and BLAST outputs. This resulted in the .csv file which
-gave us primers, annealing temps, and amplicon lengths.
-
-#### 3. Lab Work
-
-Followed protocols outlined in Mayne et al. 2021, Mayne et al. 2022, and
-Anastasiadi & Piferrer, 2019 to extract, bisulfite treat the DNA and
-amplify, barcode and sequence specific regions in the genome. (NOT
-INCLUDED IN THIS REPO)
-
-#### 4. Post Sequencing Processing
-Demultiplex, align, and call methylation percentage for each locus
-amplified. Most of the scripts are taken from [this
-site](https://ucdavis-bioinformatics-training.github.io/2020-Epigenetics_Workshop/WGBS/WGBS),
-which was super helpful. In order, you trim, then align, then call the
-methylation percentage. The file that we end up using for step 5 is the
-.cov file from each individual, produced from the bismark_part1.sh
-script.
-
-#### 5. Linear modeling   
-Ran a GLM in R to estimate age using methylation % at each locus
-
-## Current Results (04/2025):
-
-Our results suggest that although our loci are somewhat informative of
-age we do not have enough loci to have a confident age call for
-individuals. In order to increase confidence, we would need to locate,
-amplify, and sequence more CpG sites.
-
+from both the H&L and Trawl surveys. We used the previously published 
+genome of vermilion rockfish to identify the location of informative 
+methylation markers used zebrafish, and developed primers to target those 
+specific regions of the genome. Our results suggest that although our loci 
+are somewhat informative of age we do not have enough loci to have a confident 
+age call for individuals. In order to increase confidence, we would need to 
+locate, amplify, and sequence more CpG sites.
 [SEE FIGURE HERE](https://github.com/anita-wray/vermilion_sunset_epigenetics/blob/main/LINEAR%20MODELING/predAge_vs_realAge_glmnet_locusPThresh0.1_MinDep5_4March2025.pdf)
+All scripts for this first effort are included in the "First Effort - Mayne Method".
+
+### Current Work (10/2026):
+
+We used whole genome bisulfite sequencing on 104 samples to get a complete look 
+at the genomic patterns of methylation. In short, we aligned the sequences to the 
+Vermilion Rockfish genome, identified and removed SNPs, then ran through the 
+[methylseq nextflow pipeline](https://nf-co.re/methylseq/4.2.0/). Much of this work 
+was replicated from [Emma Strand's repo](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2021-10-21-HoloInt-WGBS-Analysis-Pipeline.md). We developed a strong epigenetic clock 
+using 95 CpG sites. [SEE FIGURE HERE]()
+
+All scripts for this second effort are included in the "Second Effort - WGBS".
 
 ## Disclaimer:
 
