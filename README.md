@@ -35,8 +35,10 @@ at the genomic patterns of methylation. In short, we aligned the sequences to th
 Vermilion Rockfish genome, identified and removed SNPs, then ran through the 
 [methylseq nextflow pipeline](https://nf-co.re/methylseq/4.2.0/). Much of this work 
 was replicated from [Emma Strand's repo](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2021-10-21-HoloInt-WGBS-Analysis-Pipeline.md). We developed a strong epigenetic clock 
-using 95 CpG sites. [SEE FIGURE HERE]()
-
+using 95 CpG sites. 
+<p align="center">
+  <img src="Second Effort - WGBS/clock_alpha0.1_snps73_R0.948_MAE3.19_20260819_1442_performance.png" width="800" div align="center">
+</p>
 All scripts for this second effort are included in the "Second Effort - WGBS".
 
 ## Disclaimer:
