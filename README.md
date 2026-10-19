@@ -12,8 +12,7 @@ both species using a subset of our existing 30,000 vermilion and sunset
 rockfish samples collected from 2004-2023 during two
 industry-collaborative research surveys. Epigenetic ageing provides a
 non-lethal method of determining age and lifespan using the degree of
-methylation at genomic sites. These sites are preselected from previous
-studies.
+methylation at genomic sites.
 
 ### First effort (04/2025):
 
